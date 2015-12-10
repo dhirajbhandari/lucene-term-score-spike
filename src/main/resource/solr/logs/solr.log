@@ -1,0 +1,1137 @@
+INFO  - 2015-12-11 05:26:28.253; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2015-12-11 05:26:28.275; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/contexts at interval 0
+INFO  - 2015-12-11 05:26:28.279; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/contexts/solr-jetty-context.xml
+INFO  - 2015-12-11 05:26:28.324; org.eclipse.jetty.webapp.WebInfConfiguration; Extract jar:file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/webapps/solr.war!/ to /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr-webapp/webapp
+INFO  - 2015-12-11 05:26:29.448; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2015-12-11 05:26:29.496; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-12-11 05:26:29.507; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2015-12-11 05:26:29.507; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2015-12-11 05:26:29.508; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2015-12-11 05:26:29.600; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/solr.xml
+INFO  - 2015-12-11 05:26:29.652; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr
+INFO  - 2015-12-11 05:26:29.657; org.apache.solr.core.CoreContainer; New CoreContainer 1346416503
+INFO  - 2015-12-11 05:26:29.657; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2015-12-11 05:26:29.665; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-12-11 05:26:29.665; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2015-12-11 05:26:29.668; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-12-11 05:26:29.669; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-12-11 05:26:29.670; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-12-11 05:26:29.670; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-12-11 05:26:29.670; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-12-11 05:26:29.670; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-12-11 05:26:29.671; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-12-11 05:26:29.671; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2015-12-11 05:26:29.752; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+INFO  - 2015-12-11 05:26:29.753; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-12-11 05:26:29.754; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-12-11 05:26:29.754; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2015-12-11 05:26:29.779; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr
+INFO  - 2015-12-11 05:26:29.784; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/
+INFO  - 2015-12-11 05:26:29.785; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2015-12-11 05:26:29.786; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/'
+INFO  - 2015-12-11 05:26:29.838; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2015-12-11 05:26:29.840; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2015-12-11 05:26:29.840; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2015-12-11 05:26:29.840; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+INFO  - 2015-12-11 05:26:29.840; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2015-12-11 05:26:29.841; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2015-12-11 05:26:29.841; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2015-12-11 05:26:29.841; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+INFO  - 2015-12-11 05:26:29.841; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2015-12-11 05:26:29.841; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+INFO  - 2015-12-11 05:26:29.841; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+INFO  - 2015-12-11 05:26:29.842; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2015-12-11 05:26:29.842; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2015-12-11 05:26:29.842; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+INFO  - 2015-12-11 05:26:29.842; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+INFO  - 2015-12-11 05:26:29.842; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2015-12-11 05:26:29.842; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2015-12-11 05:26:29.842; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+INFO  - 2015-12-11 05:26:29.843; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+INFO  - 2015-12-11 05:26:29.856; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+INFO  - 2015-12-11 05:26:29.856; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+INFO  - 2015-12-11 05:26:29.857; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+INFO  - 2015-12-11 05:26:29.857; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2015-12-11 05:26:29.857; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2015-12-11 05:26:29.857; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+INFO  - 2015-12-11 05:26:29.857; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+INFO  - 2015-12-11 05:26:29.857; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+INFO  - 2015-12-11 05:26:29.858; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2015-12-11 05:26:29.858; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2015-12-11 05:26:29.858; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2015-12-11 05:26:29.858; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2015-12-11 05:26:29.858; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2015-12-11 05:26:29.858; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/xz-1.4.jar' to classloader
+INFO  - 2015-12-11 05:26:29.859; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/dist/solr-cell-4.10.4.jar' to classloader
+INFO  - 2015-12-11 05:26:29.860; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2015-12-11 05:26:29.860; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2015-12-11 05:26:29.860; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2015-12-11 05:26:29.860; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2015-12-11 05:26:29.861; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2015-12-11 05:26:29.861; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2015-12-11 05:26:29.861; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2015-12-11 05:26:29.861; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2015-12-11 05:26:29.862; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/dist/solr-clustering-4.10.4.jar' to classloader
+INFO  - 2015-12-11 05:26:29.862; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2015-12-11 05:26:29.862; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2015-12-11 05:26:29.863; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/dist/solr-langid-4.10.4.jar' to classloader
+INFO  - 2015-12-11 05:26:29.863; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2015-12-11 05:26:29.863; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2015-12-11 05:26:29.863; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2015-12-11 05:26:29.863; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2015-12-11 05:26:29.864; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/dist/solr-velocity-4.10.4.jar' to classloader
+INFO  - 2015-12-11 05:26:30.000; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2015-12-11 05:26:30.005; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.4
+INFO  - 2015-12-11 05:26:30.081; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-12-11 05:26:30.085; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf/schema.xml
+INFO  - 2015-12-11 05:26:30.136; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2015-12-11 05:26:30.488; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-12-11 05:26:30.497; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2015-12-11 05:26:30.497; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2015-12-11 05:26:30.547; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2015-12-11 05:26:30.552; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2015-12-11 05:26:30.613; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using configuration from instancedir /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/
+INFO  - 2015-12-11 05:26:30.627; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2015-12-11 05:26:30.633; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/, dataDir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/
+INFO  - 2015-12-11 05:26:30.634; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2015-12-11 05:26:30.637; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2015-12-11 05:26:30.637; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2015-12-11 05:26:30.646; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data
+INFO  - 2015-12-11 05:26:30.649; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index/
+WARN  - 2015-12-11 05:26:30.649; org.apache.solr.core.SolrCore; [collection1] Solr index directory '/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index' doesn't exist. Creating new index...
+INFO  - 2015-12-11 05:26:30.656; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index
+INFO  - 2015-12-11 05:26:30.685; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index lockFactory=NativeFSLockFactory@/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2015-12-11 05:26:30.686; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-12-11 05:26:30.688; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2015-12-11 05:26:30.688; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2015-12-11 05:26:30.689; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2015-12-11 05:26:30.690; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2015-12-11 05:26:30.691; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2015-12-11 05:26:30.751; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-12-11 05:26:30.755; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:26:30.756; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:26:30.756; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:26:30.756; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:26:30.759; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2015-12-11 05:26:30.760; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2015-12-11 05:26:30.761; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-12-11 05:26:30.761; org.apache.solr.core.RequestHandlers; created /export: solr.SearchHandler
+INFO  - 2015-12-11 05:26:30.761; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+WARN  - 2015-12-11 05:26:30.762; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:26:30.762; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-12-11 05:26:30.762; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2015-12-11 05:26:30.763; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2015-12-11 05:26:30.763; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-12-11 05:26:30.763; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-12-11 05:26:30.763; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2015-12-11 05:26:30.763; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2015-12-11 05:26:30.765; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2015-12-11 05:26:30.766; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-12-11 05:26:30.768; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2015-12-11 05:26:30.774; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-12-11 05:26:30.774; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2015-12-11 05:26:30.774; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2015-12-11 05:26:30.774; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2015-12-11 05:26:30.774; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2015-12-11 05:26:30.774; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2015-12-11 05:26:30.775; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2015-12-11 05:26:30.775; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2015-12-11 05:26:30.775; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2015-12-11 05:26:30.791; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:26:30.793; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:26:30.793; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:26:30.794; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:26:30.795; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:26:30.805; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2015-12-11 05:26:30.805; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-12-11 05:26:30.812; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index lockFactory=NativeFSLockFactory@/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2015-12-11 05:26:30.812; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-12-11 05:26:30.817; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@2a086af[collection1] main
+INFO  - 2015-12-11 05:26:30.821; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:26:30.821; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf}
+INFO  - 2015-12-11 05:26:30.822; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:26:30.825; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:26:30.825; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2015-12-11 05:26:30.826; org.apache.solr.rest.RestManager; Initializing 2 registered ManagedResources
+INFO  - 2015-12-11 05:26:30.826; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_stopwords_english.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:26:30.827; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:26:30.827; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2015-12-11 05:26:30.827; org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2015-12-11 05:26:30.827; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/stopwords/english
+INFO  - 2015-12-11 05:26:30.828; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_synonyms_english.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:26:30.828; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:26:30.828; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2015-12-11 05:26:30.829; org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2015-12-11 05:26:30.830; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/synonyms/english
+INFO  - 2015-12-11 05:26:30.830; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2015-12-11 05:26:30.835; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2015-12-11 05:26:30.839; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2015-12-11 05:26:30.840; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf/elevate.xml
+INFO  - 2015-12-11 05:26:30.861; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2015-12-11 05:26:30.862; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@2a086af[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-12-11 05:26:30.862; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2015-12-11 05:26:30.863; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example
+INFO  - 2015-12-11 05:26:30.864; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-12-11 05:26:30.886; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2015-12-11 05:26:30.899; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=37 
+INFO  - 2015-12-11 05:26:30.900; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2015-12-11 05:26:30.900; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2015-12-11 05:26:30.900; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2015-12-11 05:26:30.900; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@2a086af[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-12-11 05:26:52.617; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1449772012612&wt=json} status=0 QTime=2 
+INFO  - 2015-12-11 05:26:52.754; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1449772012735&wt=json} status=0 QTime=18 
+INFO  - 2015-12-11 05:26:55.050; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1449772015047&wt=json} status=0 QTime=2 
+INFO  - 2015-12-11 05:26:55.064; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={_=1449772015061&wt=json} status=0 QTime=1 
+INFO  - 2015-12-11 05:26:57.192; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-bottom.html&_=1449772017189&contentType=text/html;charset%3Dutf-8} status=0 QTime=1 
+INFO  - 2015-12-11 05:26:57.192; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-top.html&_=1449772017189&contentType=text/html;charset%3Dutf-8} status=0 QTime=1 
+INFO  - 2015-12-11 05:26:57.199; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/luke params={numTerms=0&_=1449772017196&show=index&wt=json} status=0 QTime=1 
+INFO  - 2015-12-11 05:26:57.201; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/replication params={command=details&_=1449772017198&wt=json} status=0 QTime=1 
+INFO  - 2015-12-11 05:26:57.203; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1449772017200} status=0 QTime=0 
+INFO  - 2015-12-11 05:26:57.205; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/ping params={action=status&_=1449772017202&wt=json} status=503 QTime=2 
+INFO  - 2015-12-11 05:26:57.209; org.apache.solr.core.SolrCore; [collection1] webapp=/solr path=/admin/system params={_=1449772017199&wt=json} status=0 QTime=9 
+INFO  - 2015-12-11 05:31:08.962; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2015-12-11 05:31:08.962; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr-webapp/webapp/},/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/webapps/solr.war
+INFO  - 2015-12-11 05:31:09.966; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1346416503
+INFO  - 2015-12-11 05:31:09.966; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@3c16e9af
+INFO  - 2015-12-11 05:31:09.967; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-12-11 05:31:09.967; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-12-11 05:31:09.967; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-12-11 05:31:09.968; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-12-11 05:31:09.970; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2015-12-11 05:31:09.971; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-12-11 05:31:09.972; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index [CachedDir<<refCount=0;path=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index;done=false>>]
+INFO  - 2015-12-11 05:31:09.972; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index
+INFO  - 2015-12-11 05:31:09.972; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data [CachedDir<<refCount=0;path=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data;done=false>>]
+INFO  - 2015-12-11 05:31:09.972; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data
+INFO  - 2015-12-11 05:31:09.974; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr-webapp/webapp/},/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/webapps/solr.war
+WARN  - 2015-12-11 05:31:16.931; org.eclipse.jetty.xml.XmlParser$Handler; FATAL@file:/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/ line:1 col:1 : org.xml.sax.SAXParseException; systemId: file:/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+INFO  - 2015-12-11 05:31:38.569; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2015-12-11 05:31:38.583; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/contexts at interval 0
+INFO  - 2015-12-11 05:31:38.587; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/contexts/solr-jetty-context.xml
+INFO  - 2015-12-11 05:31:39.351; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2015-12-11 05:31:39.397; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-12-11 05:31:39.408; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2015-12-11 05:31:39.408; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2015-12-11 05:31:39.409; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2015-12-11 05:31:39.496; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/solr.xml
+INFO  - 2015-12-11 05:31:39.553; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr
+INFO  - 2015-12-11 05:31:39.567; org.apache.solr.core.CoreContainer; New CoreContainer 1198349394
+INFO  - 2015-12-11 05:31:39.567; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2015-12-11 05:31:39.575; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-12-11 05:31:39.575; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2015-12-11 05:31:39.578; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-12-11 05:31:39.578; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-12-11 05:31:39.579; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-12-11 05:31:39.579; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-12-11 05:31:39.580; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-12-11 05:31:39.580; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-12-11 05:31:39.580; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-12-11 05:31:39.580; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2015-12-11 05:31:39.656; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+INFO  - 2015-12-11 05:31:39.657; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-12-11 05:31:39.658; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-12-11 05:31:39.659; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2015-12-11 05:31:39.714; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr
+INFO  - 2015-12-11 05:31:39.720; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/
+INFO  - 2015-12-11 05:31:39.721; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2015-12-11 05:31:39.722; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/'
+INFO  - 2015-12-11 05:31:39.780; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2015-12-11 05:31:39.783; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2015-12-11 05:31:39.784; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2015-12-11 05:31:39.784; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+INFO  - 2015-12-11 05:31:39.784; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2015-12-11 05:31:39.784; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2015-12-11 05:31:39.789; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2015-12-11 05:31:39.789; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+INFO  - 2015-12-11 05:31:39.789; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2015-12-11 05:31:39.790; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+INFO  - 2015-12-11 05:31:39.790; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+INFO  - 2015-12-11 05:31:39.790; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2015-12-11 05:31:39.790; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2015-12-11 05:31:39.790; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+INFO  - 2015-12-11 05:31:39.790; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+INFO  - 2015-12-11 05:31:39.791; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2015-12-11 05:31:39.791; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2015-12-11 05:31:39.791; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+INFO  - 2015-12-11 05:31:39.791; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+INFO  - 2015-12-11 05:31:39.791; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+INFO  - 2015-12-11 05:31:39.791; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+INFO  - 2015-12-11 05:31:39.791; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+INFO  - 2015-12-11 05:31:39.792; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2015-12-11 05:31:39.792; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2015-12-11 05:31:39.792; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+INFO  - 2015-12-11 05:31:39.792; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+INFO  - 2015-12-11 05:31:39.792; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+INFO  - 2015-12-11 05:31:39.792; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2015-12-11 05:31:39.792; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2015-12-11 05:31:39.793; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2015-12-11 05:31:39.793; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2015-12-11 05:31:39.793; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2015-12-11 05:31:39.793; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/extraction/lib/xz-1.4.jar' to classloader
+INFO  - 2015-12-11 05:31:39.794; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/dist/solr-cell-4.10.4.jar' to classloader
+INFO  - 2015-12-11 05:31:39.795; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2015-12-11 05:31:39.796; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2015-12-11 05:31:39.796; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2015-12-11 05:31:39.796; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2015-12-11 05:31:39.796; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2015-12-11 05:31:39.796; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2015-12-11 05:31:39.796; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2015-12-11 05:31:39.796; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2015-12-11 05:31:39.797; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/dist/solr-clustering-4.10.4.jar' to classloader
+INFO  - 2015-12-11 05:31:39.797; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2015-12-11 05:31:39.797; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2015-12-11 05:31:39.798; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/dist/solr-langid-4.10.4.jar' to classloader
+INFO  - 2015-12-11 05:31:39.798; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2015-12-11 05:31:39.798; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2015-12-11 05:31:39.799; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2015-12-11 05:31:39.799; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2015-12-11 05:31:39.799; org.apache.solr.core.SolrResourceLoader; Adding 'file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/dist/solr-velocity-4.10.4.jar' to classloader
+INFO  - 2015-12-11 05:31:39.894; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2015-12-11 05:31:39.899; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.4
+INFO  - 2015-12-11 05:31:39.972; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-12-11 05:31:39.976; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf/schema.xml
+INFO  - 2015-12-11 05:31:40.028; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2015-12-11 05:31:40.383; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-12-11 05:31:40.391; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2015-12-11 05:31:40.392; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2015-12-11 05:31:40.436; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2015-12-11 05:31:40.442; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2015-12-11 05:31:40.513; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using configuration from instancedir /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/
+INFO  - 2015-12-11 05:31:40.525; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2015-12-11 05:31:40.529; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/, dataDir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/
+INFO  - 2015-12-11 05:31:40.530; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2015-12-11 05:31:40.532; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2015-12-11 05:31:40.532; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2015-12-11 05:31:40.541; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data
+INFO  - 2015-12-11 05:31:40.542; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index/
+INFO  - 2015-12-11 05:31:40.542; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index
+INFO  - 2015-12-11 05:31:40.553; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2015-12-11 05:31:40.553; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2015-12-11 05:31:40.554; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2015-12-11 05:31:40.556; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2015-12-11 05:31:40.556; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2015-12-11 05:31:40.618; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-12-11 05:31:40.623; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:31:40.623; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:31:40.623; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:31:40.623; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:31:40.627; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2015-12-11 05:31:40.627; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2015-12-11 05:31:40.628; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-12-11 05:31:40.628; org.apache.solr.core.RequestHandlers; created /export: solr.SearchHandler
+INFO  - 2015-12-11 05:31:40.628; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+WARN  - 2015-12-11 05:31:40.629; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:31:40.629; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-12-11 05:31:40.629; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2015-12-11 05:31:40.630; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2015-12-11 05:31:40.630; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-12-11 05:31:40.630; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-12-11 05:31:40.630; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2015-12-11 05:31:40.630; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2015-12-11 05:31:40.631; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2015-12-11 05:31:40.632; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-12-11 05:31:40.634; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2015-12-11 05:31:40.639; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-12-11 05:31:40.640; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2015-12-11 05:31:40.640; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2015-12-11 05:31:40.640; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2015-12-11 05:31:40.640; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2015-12-11 05:31:40.640; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2015-12-11 05:31:40.640; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2015-12-11 05:31:40.640; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2015-12-11 05:31:40.640; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2015-12-11 05:31:40.650; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:31:40.651; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:31:40.651; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:31:40.652; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:31:40.652; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:31:40.662; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2015-12-11 05:31:40.662; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-12-11 05:31:40.686; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index lockFactory=NativeFSLockFactory@/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2015-12-11 05:31:40.687; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-12-11 05:31:40.691; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@9eec036[collection1] main
+INFO  - 2015-12-11 05:31:40.695; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:31:40.695; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf}
+INFO  - 2015-12-11 05:31:40.696; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:31:40.700; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:31:40.700; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2015-12-11 05:31:40.700; org.apache.solr.rest.RestManager; Initializing 2 registered ManagedResources
+INFO  - 2015-12-11 05:31:40.700; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_stopwords_english.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:31:40.702; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:31:40.702; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2015-12-11 05:31:40.702; org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2015-12-11 05:31:40.702; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/stopwords/english
+INFO  - 2015-12-11 05:31:40.703; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_synonyms_english.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:31:40.703; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2015-12-11 05:31:40.704; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2015-12-11 05:31:40.704; org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2015-12-11 05:31:40.706; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/synonyms/english
+INFO  - 2015-12-11 05:31:40.706; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2015-12-11 05:31:40.710; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2015-12-11 05:31:40.715; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2015-12-11 05:31:40.716; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/conf/elevate.xml
+INFO  - 2015-12-11 05:31:40.735; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2015-12-11 05:31:40.736; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@9eec036[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-12-11 05:31:40.736; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2015-12-11 05:31:40.737; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example
+INFO  - 2015-12-11 05:31:40.737; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-12-11 05:31:40.758; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2015-12-11 05:31:40.772; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=36 
+INFO  - 2015-12-11 05:31:40.773; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2015-12-11 05:31:40.773; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2015-12-11 05:31:40.773; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2015-12-11 05:31:40.773; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@9eec036[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-12-11 05:32:07.779; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2015-12-11 05:32:07.780; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr-webapp/webapp/},/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/webapps/solr.war
+INFO  - 2015-12-11 05:32:08.786; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1198349394
+INFO  - 2015-12-11 05:32:08.787; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@fa21996
+INFO  - 2015-12-11 05:32:08.787; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-12-11 05:32:08.788; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-12-11 05:32:08.788; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-12-11 05:32:08.788; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-12-11 05:32:08.790; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2015-12-11 05:32:08.791; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-12-11 05:32:08.791; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data [CachedDir<<refCount=0;path=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data;done=false>>]
+INFO  - 2015-12-11 05:32:08.792; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data
+INFO  - 2015-12-11 05:32:08.792; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index [CachedDir<<refCount=0;path=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index;done=false>>]
+INFO  - 2015-12-11 05:32:08.792; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr/collection1/data/index
+INFO  - 2015-12-11 05:32:08.793; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr-webapp/webapp/},/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/webapps/solr.war
+INFO  - 2015-12-11 05:33:16.551; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2015-12-11 05:33:16.568; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/contexts at interval 0
+INFO  - 2015-12-11 05:33:16.572; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/contexts/solr-jetty-context.xml
+INFO  - 2015-12-11 05:33:17.323; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2015-12-11 05:33:17.363; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-12-11 05:33:17.374; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2015-12-11 05:33:17.374; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex
+INFO  - 2015-12-11 05:33:17.374; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/'
+INFO  - 2015-12-11 05:33:17.465; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/solr.xml
+INFO  - 2015-12-11 05:33:17.522; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex
+INFO  - 2015-12-11 05:33:17.536; org.apache.solr.core.CoreContainer; New CoreContainer 206001908
+INFO  - 2015-12-11 05:33:17.536; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/]
+INFO  - 2015-12-11 05:33:17.544; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-12-11 05:33:17.544; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2015-12-11 05:33:17.547; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-12-11 05:33:17.547; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-12-11 05:33:17.549; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-12-11 05:33:17.549; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-12-11 05:33:17.549; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-12-11 05:33:17.549; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-12-11 05:33:17.550; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-12-11 05:33:17.550; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2015-12-11 05:33:17.623; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+INFO  - 2015-12-11 05:33:17.624; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-12-11 05:33:17.625; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-12-11 05:33:17.626; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2015-12-11 05:33:17.651; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex
+INFO  - 2015-12-11 05:33:17.657; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/
+INFO  - 2015-12-11 05:33:17.657; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2015-12-11 05:33:17.659; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/'
+INFO  - 2015-12-11 05:33:17.710; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+WARN  - 2015-12-11 05:33:17.711; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/../../../contrib/extraction/lib).
+WARN  - 2015-12-11 05:33:17.711; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/../../../dist).
+WARN  - 2015-12-11 05:33:17.711; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/../../../contrib/clustering/lib).
+WARN  - 2015-12-11 05:33:17.712; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/../../../dist).
+WARN  - 2015-12-11 05:33:17.720; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/../../../contrib/langid/lib).
+WARN  - 2015-12-11 05:33:17.720; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/../../../dist).
+WARN  - 2015-12-11 05:33:17.720; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/../../../contrib/velocity/lib).
+WARN  - 2015-12-11 05:33:17.721; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/../../../dist).
+INFO  - 2015-12-11 05:33:17.787; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2015-12-11 05:33:17.792; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.4
+INFO  - 2015-12-11 05:33:17.859; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-12-11 05:33:17.863; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/conf/schema.xml
+INFO  - 2015-12-11 05:33:17.870; org.apache.solr.schema.IndexSchema; [collection1] Schema name=plex
+ERROR - 2015-12-11 05:33:17.895; org.apache.solr.core.CoreContainer; Error creating core [collection1]: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/conf/schema.xml
+org.apache.solr.common.SolrException: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:595)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:521)
+	at org.apache.solr.schema.IndexSchema.readSimilarity(IndexSchema.java:950)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:493)
+	... 12 more
+Caused by: java.lang.ClassNotFoundException: org.apache.solr.search.ext.MyPerFieldSimilarityWrapper
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:789)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 15 more
+INFO  - 2015-12-11 05:33:17.924; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example
+INFO  - 2015-12-11 05:33:17.925; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-12-11 05:33:17.952; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+ERROR - 2015-12-11 05:35:49.027; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/conf/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:745)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:307)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/plex/collection1/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:595)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:521)
+	at org.apache.solr.schema.IndexSchema.readSimilarity(IndexSchema.java:950)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:493)
+	... 12 more
+Caused by: java.lang.ClassNotFoundException: org.apache.solr.search.ext.MyPerFieldSimilarityWrapper
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:789)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 15 more
+
+INFO  - 2015-12-11 05:36:09.801; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2015-12-11 05:36:09.802; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr-webapp/webapp/},/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/webapps/solr.war
+INFO  - 2015-12-11 05:36:10.807; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=206001908
+INFO  - 2015-12-11 05:36:10.809; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/solr-webapp/webapp/},/Users/raj/pprojects/lucene-term-score-spike/solr-4.10.4/example/webapps/solr.war
+INFO  - 2015-12-11 05:38:28.651; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2015-12-11 05:38:28.673; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/contexts at interval 0
+INFO  - 2015-12-11 05:38:28.677; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/contexts/solr-jetty-context.xml
+INFO  - 2015-12-11 05:38:29.587; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2015-12-11 05:38:29.635; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-12-11 05:38:29.646; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2015-12-11 05:38:29.646; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2015-12-11 05:38:29.646; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2015-12-11 05:38:29.738; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/solr.xml
+INFO  - 2015-12-11 05:38:29.808; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr
+INFO  - 2015-12-11 05:38:29.812; org.apache.solr.core.CoreContainer; New CoreContainer 1011667880
+INFO  - 2015-12-11 05:38:29.812; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2015-12-11 05:38:29.820; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-12-11 05:38:29.821; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2015-12-11 05:38:29.823; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-12-11 05:38:29.824; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-12-11 05:38:29.825; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-12-11 05:38:29.825; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-12-11 05:38:29.826; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-12-11 05:38:29.826; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-12-11 05:38:29.826; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-12-11 05:38:29.826; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2015-12-11 05:38:29.902; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+INFO  - 2015-12-11 05:38:29.903; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-12-11 05:38:29.904; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-12-11 05:38:29.905; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2015-12-11 05:38:29.966; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr
+INFO  - 2015-12-11 05:38:29.973; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/
+INFO  - 2015-12-11 05:38:29.974; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2015-12-11 05:38:29.975; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/'
+INFO  - 2015-12-11 05:38:30.029; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+WARN  - 2015-12-11 05:38:30.030; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/../../../contrib/extraction/lib).
+WARN  - 2015-12-11 05:38:30.030; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/../../../dist).
+WARN  - 2015-12-11 05:38:30.030; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/../../../contrib/clustering/lib).
+WARN  - 2015-12-11 05:38:30.031; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/../../../dist).
+WARN  - 2015-12-11 05:38:30.031; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/../../../contrib/langid/lib).
+WARN  - 2015-12-11 05:38:30.031; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/../../../dist).
+WARN  - 2015-12-11 05:38:30.031; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/../../../contrib/velocity/lib).
+WARN  - 2015-12-11 05:38:30.031; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/../../../dist).
+INFO  - 2015-12-11 05:38:30.099; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2015-12-11 05:38:30.103; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.4
+INFO  - 2015-12-11 05:38:30.176; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-12-11 05:38:30.181; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/conf/schema.xml
+INFO  - 2015-12-11 05:38:30.235; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2015-12-11 05:38:30.587; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-12-11 05:38:30.595; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2015-12-11 05:38:30.595; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2015-12-11 05:38:30.641; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2015-12-11 05:38:30.647; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2015-12-11 05:38:30.720; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using configuration from instancedir /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/
+INFO  - 2015-12-11 05:38:30.732; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2015-12-11 05:38:30.736; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/, dataDir=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/data/
+INFO  - 2015-12-11 05:38:30.737; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2015-12-11 05:38:30.739; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2015-12-11 05:38:30.740; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2015-12-11 05:38:30.748; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/data
+INFO  - 2015-12-11 05:38:30.749; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/data/index/
+INFO  - 2015-12-11 05:38:30.749; org.apache.solr.core.CachingDirectoryFactory; return new directory for /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/data/index
+INFO  - 2015-12-11 05:38:30.760; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2015-12-11 05:38:30.760; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2015-12-11 05:38:30.760; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2015-12-11 05:38:30.762; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2015-12-11 05:38:30.762; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2015-12-11 05:38:30.817; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-12-11 05:38:30.821; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:38:30.821; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:38:30.821; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:38:30.821; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:38:30.824; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2015-12-11 05:38:30.824; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2015-12-11 05:38:30.825; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2015-12-11 05:38:30.826; org.apache.solr.core.RequestHandlers; created /export: solr.SearchHandler
+INFO  - 2015-12-11 05:38:30.826; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+WARN  - 2015-12-11 05:38:30.827; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2015-12-11 05:38:30.827; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2015-12-11 05:38:30.827; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2015-12-11 05:38:30.827; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2015-12-11 05:38:30.827; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2015-12-11 05:38:30.827; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2015-12-11 05:38:30.827; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2015-12-11 05:38:30.827; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2015-12-11 05:38:30.829; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2015-12-11 05:38:30.830; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2015-12-11 05:38:30.831; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2015-12-11 05:38:30.837; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2015-12-11 05:38:30.837; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2015-12-11 05:38:30.837; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2015-12-11 05:38:30.837; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2015-12-11 05:38:30.837; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2015-12-11 05:38:30.837; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2015-12-11 05:38:30.837; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2015-12-11 05:38:30.837; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2015-12-11 05:38:30.837; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2015-12-11 05:38:30.847; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:38:30.849; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:38:30.849; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:38:30.850; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:38:30.850; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-12-11 05:38:30.860; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2015-12-11 05:38:30.860; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-12-11 05:38:30.881; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/data/index lockFactory=NativeFSLockFactory@/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2015-12-11 05:38:30.881; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-12-11 05:38:30.885; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@600a2be4[collection1] main
+INFO  - 2015-12-11 05:38:30.889; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/conf
+INFO  - 2015-12-11 05:38:30.889; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/conf}
+INFO  - 2015-12-11 05:38:30.890; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/conf
+INFO  - 2015-12-11 05:38:30.893; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/conf
+INFO  - 2015-12-11 05:38:30.894; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2015-12-11 05:38:30.894; org.apache.solr.rest.RestManager; Initializing 2 registered ManagedResources
+INFO  - 2015-12-11 05:38:30.894; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_stopwords_english.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/conf
+INFO  - 2015-12-11 05:38:30.895; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/conf
+INFO  - 2015-12-11 05:38:30.895; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2015-12-11 05:38:30.895; org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2015-12-11 05:38:30.895; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/stopwords/english
+INFO  - 2015-12-11 05:38:30.896; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_synonyms_english.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/conf
+INFO  - 2015-12-11 05:38:30.896; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/conf
+INFO  - 2015-12-11 05:38:30.896; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2015-12-11 05:38:30.897; org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2015-12-11 05:38:30.898; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/synonyms/english
+INFO  - 2015-12-11 05:38:30.898; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2015-12-11 05:38:30.902; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2015-12-11 05:38:30.905; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2015-12-11 05:38:30.907; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/conf/elevate.xml
+INFO  - 2015-12-11 05:38:30.926; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2015-12-11 05:38:30.926; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@600a2be4[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-12-11 05:38:30.926; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2015-12-11 05:38:30.928; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr
+INFO  - 2015-12-11 05:38:30.928; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-12-11 05:38:30.948; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2015-12-11 05:38:30.962; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=35 
+INFO  - 2015-12-11 05:38:30.962; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2015-12-11 05:38:30.963; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2015-12-11 05:38:30.963; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2015-12-11 05:38:30.963; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@600a2be4[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2015-12-11 05:41:05.448; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2015-12-11 05:41:05.449; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr-webapp/webapp/},/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/webapps/solr.war
+INFO  - 2015-12-11 05:41:06.450; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1011667880
+INFO  - 2015-12-11 05:41:06.451; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@1caeb245
+INFO  - 2015-12-11 05:41:06.451; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2015-12-11 05:41:06.452; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-12-11 05:41:06.452; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-12-11 05:41:06.452; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-12-11 05:41:06.455; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2015-12-11 05:41:06.455; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-12-11 05:41:06.456; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/data/index [CachedDir<<refCount=0;path=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/data/index;done=false>>]
+INFO  - 2015-12-11 05:41:06.456; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/data/index
+INFO  - 2015-12-11 05:41:06.456; org.apache.solr.core.CachingDirectoryFactory; looking to close /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/data [CachedDir<<refCount=0;path=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/data;done=false>>]
+INFO  - 2015-12-11 05:41:06.456; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr/collection1/data
+INFO  - 2015-12-11 05:41:06.457; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr-webapp/webapp/},/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/webapps/solr.war
+INFO  - 2015-12-11 05:42:05.068; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2015-12-11 05:42:05.087; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/contexts at interval 0
+INFO  - 2015-12-11 05:42:05.090; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/contexts/solr-jetty-context.xml
+INFO  - 2015-12-11 05:42:05.830; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2015-12-11 05:42:05.871; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-12-11 05:42:05.882; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2015-12-11 05:42:05.882; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: ./plex
+INFO  - 2015-12-11 05:42:05.882; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: './plex/'
+INFO  - 2015-12-11 05:42:05.973; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/solr.xml
+INFO  - 2015-12-11 05:42:06.040; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex
+INFO  - 2015-12-11 05:42:06.045; org.apache.solr.core.CoreContainer; New CoreContainer 324533751
+INFO  - 2015-12-11 05:42:06.045; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=./plex/]
+INFO  - 2015-12-11 05:42:06.053; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-12-11 05:42:06.053; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2015-12-11 05:42:06.056; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-12-11 05:42:06.056; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-12-11 05:42:06.058; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-12-11 05:42:06.058; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-12-11 05:42:06.058; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-12-11 05:42:06.058; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-12-11 05:42:06.059; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-12-11 05:42:06.059; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2015-12-11 05:42:06.137; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+INFO  - 2015-12-11 05:42:06.138; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-12-11 05:42:06.139; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-12-11 05:42:06.140; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2015-12-11 05:42:06.197; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex
+INFO  - 2015-12-11 05:42:06.204; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/
+INFO  - 2015-12-11 05:42:06.204; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2015-12-11 05:42:06.205; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/'
+INFO  - 2015-12-11 05:42:06.260; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+WARN  - 2015-12-11 05:42:06.261; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../contrib/extraction/lib).
+WARN  - 2015-12-11 05:42:06.261; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../dist).
+WARN  - 2015-12-11 05:42:06.261; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../contrib/clustering/lib).
+WARN  - 2015-12-11 05:42:06.262; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../dist).
+WARN  - 2015-12-11 05:42:06.262; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../contrib/langid/lib).
+WARN  - 2015-12-11 05:42:06.262; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../dist).
+WARN  - 2015-12-11 05:42:06.262; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../contrib/velocity/lib).
+WARN  - 2015-12-11 05:42:06.262; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../dist).
+INFO  - 2015-12-11 05:42:06.331; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2015-12-11 05:42:06.336; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.4
+INFO  - 2015-12-11 05:42:06.405; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-12-11 05:42:06.409; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+INFO  - 2015-12-11 05:42:06.416; org.apache.solr.schema.IndexSchema; [collection1] Schema name=plex
+ERROR - 2015-12-11 05:42:06.449; org.apache.solr.core.CoreContainer; Error creating core [collection1]: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+org.apache.solr.common.SolrException: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:595)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:521)
+	at org.apache.solr.schema.IndexSchema.readSimilarity(IndexSchema.java:950)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:493)
+	... 12 more
+Caused by: java.lang.ClassNotFoundException: org.apache.solr.search.ext.MyPerFieldSimilarityWrapper
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:789)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 15 more
+INFO  - 2015-12-11 05:42:06.455; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr
+INFO  - 2015-12-11 05:42:06.455; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-12-11 05:42:06.475; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2015-12-11 05:42:19.470; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2015-12-11 05:42:19.471; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr-webapp/webapp/},/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/webapps/solr.war
+INFO  - 2015-12-11 05:42:20.472; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=324533751
+INFO  - 2015-12-11 05:42:20.475; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr-webapp/webapp/},/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/webapps/solr.war
+INFO  - 2015-12-11 05:43:16.022; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2015-12-11 05:43:16.036; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/contexts at interval 0
+INFO  - 2015-12-11 05:43:16.040; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/contexts/solr-jetty-context.xml
+INFO  - 2015-12-11 05:43:16.758; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2015-12-11 05:43:16.798; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2015-12-11 05:43:16.808; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2015-12-11 05:43:16.808; org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: ./plex
+INFO  - 2015-12-11 05:43:16.809; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: './plex/'
+INFO  - 2015-12-11 05:43:16.901; org.apache.solr.core.ConfigSolr; Loading container configuration from /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/solr.xml
+INFO  - 2015-12-11 05:43:16.968; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex
+INFO  - 2015-12-11 05:43:16.973; org.apache.solr.core.CoreContainer; New CoreContainer 1301860253
+INFO  - 2015-12-11 05:43:16.973; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=./plex/]
+INFO  - 2015-12-11 05:43:16.981; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2015-12-11 05:43:16.982; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2015-12-11 05:43:16.985; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2015-12-11 05:43:16.985; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-12-11 05:43:16.986; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-12-11 05:43:16.987; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-12-11 05:43:16.987; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-12-11 05:43:16.987; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-12-11 05:43:16.987; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-12-11 05:43:16.988; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2015-12-11 05:43:17.060; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+INFO  - 2015-12-11 05:43:17.061; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-12-11 05:43:17.062; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-12-11 05:43:17.063; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2015-12-11 05:43:17.091; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex
+INFO  - 2015-12-11 05:43:17.098; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/
+INFO  - 2015-12-11 05:43:17.098; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2015-12-11 05:43:17.099; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/'
+INFO  - 2015-12-11 05:43:17.150; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+WARN  - 2015-12-11 05:43:17.150; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../contrib/extraction/lib).
+WARN  - 2015-12-11 05:43:17.151; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../dist).
+WARN  - 2015-12-11 05:43:17.151; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../contrib/clustering/lib).
+WARN  - 2015-12-11 05:43:17.151; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../dist).
+WARN  - 2015-12-11 05:43:17.151; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../contrib/langid/lib).
+WARN  - 2015-12-11 05:43:17.166; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../dist).
+WARN  - 2015-12-11 05:43:17.166; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../contrib/velocity/lib).
+WARN  - 2015-12-11 05:43:17.166; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/../../../dist).
+INFO  - 2015-12-11 05:43:17.234; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2015-12-11 05:43:17.239; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.4
+INFO  - 2015-12-11 05:43:17.305; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-12-11 05:43:17.309; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+INFO  - 2015-12-11 05:43:17.315; org.apache.solr.schema.IndexSchema; [collection1] Schema name=plex
+ERROR - 2015-12-11 05:43:17.346; org.apache.solr.core.CoreContainer; Error creating core [collection1]: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+org.apache.solr.common.SolrException: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:595)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:521)
+	at org.apache.solr.schema.IndexSchema.readSimilarity(IndexSchema.java:950)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:493)
+	... 12 more
+Caused by: java.lang.ClassNotFoundException: org.apache.solr.search.ext.MyPerFieldSimilarityWrapper
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:789)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 15 more
+INFO  - 2015-12-11 05:43:17.369; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr
+INFO  - 2015-12-11 05:43:17.369; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-12-11 05:43:17.390; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+ERROR - 2015-12-11 05:43:22.633; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:745)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:307)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:595)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:521)
+	at org.apache.solr.schema.IndexSchema.readSimilarity(IndexSchema.java:950)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:493)
+	... 12 more
+Caused by: java.lang.ClassNotFoundException: org.apache.solr.search.ext.MyPerFieldSimilarityWrapper
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:789)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 15 more
+
+ERROR - 2015-12-11 05:43:30.805; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:745)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:307)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:595)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:521)
+	at org.apache.solr.schema.IndexSchema.readSimilarity(IndexSchema.java:950)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:493)
+	... 12 more
+Caused by: java.lang.ClassNotFoundException: org.apache.solr.search.ext.MyPerFieldSimilarityWrapper
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:789)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 15 more
+
+ERROR - 2015-12-11 05:43:41.446; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:745)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:307)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:595)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:521)
+	at org.apache.solr.schema.IndexSchema.readSimilarity(IndexSchema.java:950)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:493)
+	... 12 more
+Caused by: java.lang.ClassNotFoundException: org.apache.solr.search.ext.MyPerFieldSimilarityWrapper
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:789)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 15 more
+
+ERROR - 2015-12-11 05:43:48.343; org.apache.solr.common.SolrException; null:org.apache.solr.common.SolrException: SolrCore 'collection1' is not available due to init failure: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:745)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:307)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core collection1: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:66)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:489)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:255)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:249)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'. Schema file is /Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/./plex/collection1/conf/schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:595)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:166)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:90)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:62)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'org.apache.solr.search.ext.MyPerFieldSimilarityWrapper'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:490)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:521)
+	at org.apache.solr.schema.IndexSchema.readSimilarity(IndexSchema.java:950)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:493)
+	... 12 more
+Caused by: java.lang.ClassNotFoundException: org.apache.solr.search.ext.MyPerFieldSimilarityWrapper
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:789)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:274)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:474)
+	... 15 more
+
+INFO  - 2015-12-11 05:44:16.926; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2015-12-11 05:44:16.927; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr-webapp/webapp/},/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/webapps/solr.war
+INFO  - 2015-12-11 05:44:17.931; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1301860253
+INFO  - 2015-12-11 05:44:17.934; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/solr-webapp/webapp/},/Users/raj/pprojects/lucene-term-score-spike/src/main/resource/solr/webapps/solr.war

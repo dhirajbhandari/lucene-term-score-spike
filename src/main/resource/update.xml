@@ -1,0 +1,36 @@
+<update>
+    <add allowDups="false">
+        <doc>
+            <field name="id">1</field>
+            <field name="url">http://www.myco.com/doc-1.html</field>
+            <field name="title">My First Document</field>
+            <field name="keywords">keyword_1</field>
+            <field name="keywords">keyword_2</field>
+            <field name="concepts">123456$12.0 234567$22.4</field>
+            <field name="description">Description for My First Document</field>
+            <field name="author">Pig Me</field>
+            <field name="content">This is the house that Jack built. It was a mighty \
+                fine house, but it was built out of straw. So the wicked old fox \
+                huffed, and puffed, and blew the house down. Which was just as well, \
+                since Jack built this house for testing purposes.
+            </field>
+        </doc>
+        <doc>
+            <field name="id">2</field>
+            <field name="url">http://www.myco.com/doc-2.html</field>
+            <field name="title">My Second Document</field>
+            <field name="keywords">keyword_3</field>
+            <field name="keywords">keyword_2</field>
+            <field name="concepts">123456$44.0 345678$20.4</field>
+            <field name="description">Description for My Second Document</field>
+            <field name="author">Will E Coyote</field>
+            <field name="content">This is the story of the three little pigs who \
+                went to the market to find material to build a house with so the \
+                wily old fox would not be able to blow their houses down with some \
+                random huffing and puffing.
+            </field>
+        </doc>
+    </add>
+    <commit/>
+    <optimize/>
+</update>
